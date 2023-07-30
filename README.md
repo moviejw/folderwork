@@ -9,21 +9,17 @@
 
 ##### 요구사항
 
-1. 파이썬 개발 환경(파이썬, pip, 편집기 등)
+1. 크롬
 
-2. 크롬
+2. chrome webdriver(크롬 버전과 대응되는 버전(예:115.xxx...)을 사용해야 하며, 만약 오류가 날 경우 시스템 환경 변수 PATH에 실행 파일 경로를 추가해주세요)
 
-3. chrome webdriver
-
-4. (없어도 됨) browsing history view
+3. (없어도 됨) browsing history view
 
 ##### 사용방법
 
-1. 크롬 웹드라이버의 실행 파일 주소를 시스템 환경 변수 PATH에 입력하거나 코드 내 'driver = webdriver.Chrome()' 안에 경로를 입력하세요
-   
-2. 본인 폴더워크 아이디와 비밀번호를 YOUR_ID_HERE과 YOUR_PASSWORD_HERE에 입력하세요
+1. 본인 폴더워크 아이디와 비밀번호를 login.txt에 입력하세요
 
-3. url.txt에 다운로드할 메모 주소를 한 줄에 하나씩 입력하세요(저는 이걸 자동화하는 법을 못찾아서 컨트롤 클릭으로 새창에 노트들을 모두 띄운 뒤 browsing history view로 한꺼번에 복사하는 무식한 방법을 썼습니다)
+2. url.txt에 다운로드할 메모 주소를 한 줄에 하나씩 입력하세요(저는 이걸 자동화하는 법을 못찾아서 컨트롤 클릭으로 새창에 노트들을 모두 띄운 뒤 browsing history view로 한꺼번에 복사하는 방법을 썼습니다)
 
-4. 실행하세요
+3. folderwork.exe를 실행하면 downloaded.txt에 천천히 다운로드됩니다
 
